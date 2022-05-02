@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PaolaDaft/Twitter_JS/issues"
   },
-  "homepage": "https://github.com/PaolaDaft/Twitter_JS#readme"
+  "homepage": "https://github.com/PaolaDaft/Twitter_JS#readme",
+  "dependencies": {
+    "jest": "^28.0.3"
+  }
 }
