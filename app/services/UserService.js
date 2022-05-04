@@ -5,12 +5,16 @@ class UserService {
         return new User(id, username, name, "sin bio")
     }
 
-    static getInfo(user) {
-        return Object.values(user).slice(0, 4)
+    static getInfo(userObject) {
+        return Object.values(userObject).slice(0, 4)
     }
 
-    static updateUserUsername (user, newUsername){
-        user.username = newUsername
+    static updateUserUsername (userObject, newUsername){
+        userObject.username = newUsername
+    }
+    
+    static getAllUsernames (usersObjectsList){
+        return usersObjectsList.map(user => user.username)
     }
 }
 
