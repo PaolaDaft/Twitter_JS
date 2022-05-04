@@ -8,6 +8,10 @@ class UserService {
     static getInfo(user) {
         return Object.values(user).slice(0, 4)
     }
+
+    static updateUserUsername (user, newUsername){
+        user.username = newUsername
+    }
 }
 
 module.exports = UserService
