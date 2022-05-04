@@ -34,4 +34,4 @@ describe("Tests for UserService", () => {
         expect(usernames).toContain("paola_daft2");
         expect(usernames).toContain("paola_daft3");
     });
-})
+});
